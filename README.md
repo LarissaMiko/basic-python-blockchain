@@ -23,8 +23,15 @@ pip3 install -r requirements.txt
 ```
 
 **Run the tests**
-Make sure to activate the virtual environment.
+(Virtual environment must be activated)
 
 ```
 python3 -m pytest backend/tests
+```
+
+**Run Application and API**
+(Virtual environment must be activated)
+
+```
+python3 -m backend.app
 ```

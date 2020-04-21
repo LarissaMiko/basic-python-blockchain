@@ -4,8 +4,8 @@ import json
 #accept various number of inputs *args
 def crypto_hash(*args):
     """
-    Return a SHA-256 hash of the given arguments
-    Sort arguments before hashing so that order does not matter
+    Returns a SHA-256 hash of the given arguments
+    Sort arguments before hashing so that the order does not matter
     """
     stringified_args = sorted(map(lambda data: json.dumps(data), args))
 
